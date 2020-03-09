@@ -1,1 +1,1 @@
-### A Machine Learning project to predict rebalancing needs for each citibike docks.
+### A Machine Learning project to predict rebalancing needs for citibike docks.
