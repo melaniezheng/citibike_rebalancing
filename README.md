@@ -11,7 +11,7 @@
 - incomingDF.zip
 - stations_distance.py : script that calculates for every station, the distance to every other stations. Result is saved in station_dict.pkl.
 
-#### Model
+#### <i>Model</i>
 - Random_Forest_bike_dock_demand.py : Script to generate Random Forest models for Bike Demand and Dock Demand.
 - predict_bike_dock_demand.py : Given datetime, predict bike demand and dock demand for all stations.
 - predict_station_status.py : Given datetime, predict station status for all stations. 
