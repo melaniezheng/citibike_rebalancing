@@ -4,14 +4,14 @@
 - Weather information from noaa: https://www.ncei.noaa.gov/data/global-hourly/archive/csv/.
 - Dock-station bike stocking information: https://www.theopenbus.com/raw-data.html.
 - MTA turnstile data: http://web.mta.info/developers/turnstile.html or https://github.com/piratefsh/mta-turnstile-cruncher.
-<br>
+
 - combine_csv.sh : bash script that combines all downloaded rides data into one massive csv file.
 - rides_data_processing.py : script that takes one massive rides data into two datasets, outgoingDF and incomingDF.
 - outgoingDF.zip
 - incomingDF.zip
 - stations_distance.py : script that calculates for every station, the distance to every other stations. Result is saved in station_dict.pkl.
-<br>
-#### <i>Model</i>
+
+#### Model
 - Random_Forest_bike_dock_demand.py : Script to generate Random Forest models for Bike Demand and Dock Demand.
 - predict_bike_dock_demand.py : Given datetime, predict bike demand and dock demand for all stations.
 - predict_station_status.py : Given datetime, predict station status for all stations. 
@@ -21,7 +21,7 @@ After generating the respective random forest models and saved in .joblib format
 (base) Melanies-MacBook-Pro:citibike_rebalancing melaniezheng$ cd Models/
 (base) Melanies-MacBook-Pro:Models melaniezheng$ python rebalancing.py '2020-07-17 9:00'
 ```
-<br>
+
 #### <i>Results</i>
 - rebalancing results in csv files with respective datetime in the filename.
 
