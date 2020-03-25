@@ -21,6 +21,10 @@ After generating the respective random forest models and saved in .joblib format
 (base) Melanies-MacBook-Pro:citibike_rebalancing melaniezheng$ cd Models/
 (base) Melanies-MacBook-Pro:Models melaniezheng$ python rebalancing.py '2020-07-17 9:00'
 ```
+These rfc models are to huge to be uploaded to github. Please follow Model/Random_Forest_bike_dock_demand.py or christianopperman/ for further info and steps to regenerate.
+- rfc_bike.joblib
+- rfc_dock.joblib
+- depletion_status_classifier.joblib
 
 #### <i>Results</i>
 - rebalancing results in csv files with respective datetime in the filename.
