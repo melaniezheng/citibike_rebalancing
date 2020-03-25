@@ -51,5 +51,3 @@ def predict_bike_dock_demand(datetime_):
     df.to_csv(f'bike_demand_prediction{datetime_}.csv',index=False)
 
     return df
-
-df=predict_bike_dock_demand('2020-07-15 9:00')
