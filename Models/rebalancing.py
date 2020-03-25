@@ -85,6 +85,12 @@ def pair_stations(predictions):
 
 ########################################### MAIN ###########################################
 userDate=sys.argv[1]
+try:
+    temp=pd.to_datetime(userDate)
+    print (f"Datetime provided: {userDate}")
+except ValueError:
+    print("Oops!  That was not a datetime.  Try again...")
+
 # Generate predictions bike_demand, dock_demand, station_status
 df=get_predictions(userDate)
 
