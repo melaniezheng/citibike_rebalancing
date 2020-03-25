@@ -93,6 +93,6 @@ station_dict = load('../Data/station_dict.pkl')
 pair_list, _ = pair_stations(df)
 
 # Save rebalancing strategies to CSV files
-pair_list.to_csv('../Data/matched_rebalancing_stations_{userDate}.csv', index = False)
+pair_list.to_csv('../Results/matched_rebalancing_stations_{userDate}.csv', index = False)
 
 
