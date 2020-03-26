@@ -48,6 +48,4 @@ def predict_bike_dock_demand(datetime_):
 
     df=pd.concat([stationid,prediction_bike,prediction_dock], axis=1)
 
-    df.to_csv(f'bike_demand_prediction{datetime_}.csv',index=False)
-
     return df
