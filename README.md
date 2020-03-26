@@ -1,4 +1,5 @@
 ### A Machine Learning project to predict rebalancing needs for citibike docks.
+##### <i>Purpose: Given a date and time, for each CitiBike station, predict outgoing bike demand, incoming bike demand and depletion status. Use the predictions to generate paired list of stations to/ from which to move bikes to ensure maximum rider fulfillment.
 #### <i>Data</i>
 - The anymonous trip system data: https://www.citibikenyc.com/system-data.
 - Weather information from noaa: https://www.ncei.noaa.gov/data/global-hourly/archive/csv/.
